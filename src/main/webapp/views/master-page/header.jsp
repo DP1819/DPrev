@@ -42,8 +42,8 @@ password="ACME-Us3r-P@ssw0rd" url="jdbc:mysql://localhost:3306/Acme-Handy-Worker
 								code="master.page.listsuspiciousactors" /></a></li>
 					<li><a href="settings/administrator/edit.do"><spring:message
 								code="master.page.editsettings" /></a></li>
-					<li><a href="referee/administrator/create.do"><spring:message
-								code="master.page.createreferee" /></a></li>
+					<%-- <li><a href="referee/administrator/create.do"><spring:message
+								code="master.page.createreferee" /></a></li> --%>
 					<li><a href="warranty/administrator/list.do"><spring:message
 								code="master.page.warranty.list" /></a></li>
 					<li><a href="category/administrator/list.do"><spring:message
