@@ -99,7 +99,7 @@ public class MessageService {
 			this.serviceUtils.checkPermisionActor(message.getFolder().getActor(), null);
 			for (final Message m : this.findCopies(message))
 				this.repository.delete(m);
-			this.repository.delete(message);
+			this.repository.delete(object);
 		} else {
 			message.setFolder(this.folderService.findFolderByActorAndName(object.getFolder().getActor(), "trashbox"));
 			this.save(message);
