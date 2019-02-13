@@ -1,0 +1,17 @@
+/bin
+.classpath
+/target
+
+# Settings folder
+.settings/
+
+# Project file
+.project
+
+# Repositories folder
+src/main/java/Repositories/
+
+# Other
+*~*
+
+
